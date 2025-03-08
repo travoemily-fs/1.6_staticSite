@@ -144,7 +144,7 @@ const IndexPage = () => {
       <div style={gifBox}>
         <h2 style={gifHeader}>This page has been edited by me!</h2>
         <img
-          src="/1.6_staticSite/static/images/tenor.gif"
+          src="/1.6_staticSite/images/tenor.gif"
           alt="Tenor GIF"
           width="268"
           height="150"
