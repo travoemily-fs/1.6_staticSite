@@ -142,7 +142,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <div style={gifBox}>
-        <h2 style={gifHeader}>This page has been edited!</h2>
+        <h2 style={gifHeader}>This page has been edited by me!</h2>
         <img
           src="/1.6_staticSite/static/images/tenor.gif"
           alt="Tenor GIF"
