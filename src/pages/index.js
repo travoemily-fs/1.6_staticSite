@@ -1,5 +1,5 @@
 import * as React from "react";
-import tenorGif from "../images/tenor.gif";
+import { withPrefix } from "gatsby";
 
 const gifBox = {
   padding: 10,
@@ -144,7 +144,12 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <div style={gifBox}>
         <h2 style={gifHeader}>This page has been edited!</h2>
-        <img src="{tenorGif}" alt="Tenor GIF" width="268" height="150" />
+        <img
+          src={withPrefix("/images/tenor.gif")}
+          alt="Tenor GIF"
+          width="268"
+          height="150"
+        />
       </div>
       <h1 style={headingStyles}>
         Congratulations
